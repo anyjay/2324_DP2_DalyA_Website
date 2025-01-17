@@ -1,0 +1,54 @@
+/*haii*/
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color:black;
+}
+body {
+display: flex;
+flex-direction: column;
+}
+img{
+    width:30%;
+}
+h1,footer{
+    text-align: center;
+    color:aliceblue;
+}
+main {
+    width:60%;
+    margin: 0 auto;
+    color: aliceblue;
+}
+main, footer{
+    width: 60%;
+    margin: 0 auto;
+    padding: .25em 1.5em .5em;
+}
+nav {
+    background: #666666;
+}
+nav a {
+    line-height: 2em;
+    color:aliceblue;
+    padding:0 2em;
+    text-transform: uppercase;
+
+}
+/*I wanted the paragraphs to be moved to the left a bit because i always pictured this being formatted like an IGN page.*/
+nav a:hover{
+    color:red;
+}
+nav ul{
+    display:flex;
+    justify-content:center
+}
+nav li{
+    list-style-type: none;
+}
+li{
+    list-style-type:none;
+}
